@@ -7,7 +7,7 @@ Create an investment tool that will allow the user to predict the trends of real
 
 ## **Our Challenge**
 - The Case-Shiller Home Price Index is delivered on a monthly basis. Although our data originates in 1987, 12 data points a year is not a lot. We decided to use both forward fill the monthly data to be “delivered” daily so we have more data points. Also to use the non biased data sets to get the real picture. 
-- Using the Non biased data give the Group a more _REAL_ outlook on what is going on in the housing market The Case-Shiller Home Price Index only provided us with about _680 Data Points_. This was considered **low** to us. Using the Foward Fill method to fill in data in bwtween the months we get our **Real** data
+- Using the Non biased data give the Group a more _REAL_ outlook on what is going on in the housing market The Case-Shiller Home Price Index only provided us with about _680 Data Points_. This was considered **low** to us. Using the Foward Fill method to fill in data in between the months we get our **Real** data
 
 # Group Questions
 1. Is there a correlation with mortgage rates and housing prices?
