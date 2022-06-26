@@ -3,11 +3,11 @@
 _________
 
 # Project Goal 
-Create an investment tool that will allow the user to predict the trends of real estate by analyzing the increase in housing prices as it relates to the mortgage rates. The tool will analyze historical mortgage rates and look for confluence and divergence between the housing prices and mortgage rates. Using the 30yr and 15yr mortgage rates as an indicator can we predict the future outlook of the housing market. The sentiment will be gauged by using NLP to see if there is a correlation with sentiment on twitter and our predictor. We can use this tool to assess the correlations and judge if it is the right time to look for houses.
+Create an investment tool that will allow the user to predict the trends of real estate by analyzing the increase in housing prices as it relates to the mortgage rates. The tool will analyze historical mortgage rates and look for confluence and divergence between the housing prices and mortgage rates. Using the 30yr and 15yr mortgage rates as an indicator we can predict the future outlook of the housing market. The sentiment will be gauged by using NLP to see if there is a correlation with sentiment on twitter and our predictor. We can use this tool to assess the correlations and judge if it is the right time to look for houses.
 
 ## **Our Challenge**
-- The Case-Shiller Home Price Index is delivered on a monthly basis. Although our data originates in 1987, 12 data points a year is not a lot. We decided to use both forward fill the monthly data to be “delivered” daily so we have more data points. Also to use the non biased data sets to get the real picture. 
-- Using the Non biased data give the Group a more _REAL_ outlook on what is going on in the housing market The Case-Shiller Home Price Index only provided us with about _680 Data Points_. This was considered **low** to us. Using the Foward Fill method to fill in data in between the months we get our **Real** data
+- The Case-Shiller Home Price Index is delivered on a monthly basis. Although our data originates in 1987, 12 data points a year is not a lot. We decided to use both forward fill to get the monthly data to be “delivered” daily so we have more data points. Also to use the non biased data sets to get the real picture. 
+- Using the ***Non biased*** data gives the Group a more _REAL_ outlook on what is going on in the housing market The Case-Shiller Home Price Index only provided us with about _680 Data Points_. This was considered **low** to us. Using the Foward Fill method to fill in data in between the months we get our **biased** data
 
 # Group Questions
 1. Is there a correlation with mortgage rates and housing prices?
@@ -35,4 +35,4 @@ Create an investment tool that will allow the user to predict the trends of real
 Based on our findings using the ***Non-Biased (not ffill) Data Points*** we for told about a ***Market Crash*** in the coming **2023 Year**.
 Our findings were based on the ***Non-Biased (not ffill) Data Points***. First we did not understand why we got this, this point we had figured it was due to insufficent data points. This is where we used the _ffill_ to get more data point but with the increase of data points we had a more _biased_ data set. With the new dataset we had a total opposite outcome.
 **Mortage Rates** along with the ___Housing Prices___ have an inverse correlation as shown in the **NonBiased** data set. When __Mortgage Rates__ are high we can see that Housing prices are lower.
-There are only 2 states Illinois and Georiga that are higher then the **US National Benchmark**, While only having data for select states we see that the other 10 states in our **nonbiased** dataset are higher then the US Benchmark. Overall we group 2 see that there is going to be a correction this upcoming ***March of 2023*** 
+There are only 2 states Illinois and Georiga that are Lower then the **US National Benchmark**, While only having data for select states we see that the other 10 states in our **nonbiased** dataset are higher then the US Benchmark. Overall we group 2 see that there is going to be a correction this upcoming ***March of 2023*** 
